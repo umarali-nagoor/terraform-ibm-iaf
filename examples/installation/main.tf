@@ -24,7 +24,7 @@ data "ibm_container_cluster_config" "cluster_config" {
 // Module:
 
 module "iaf" {
-  source = "../."
+  source = "./../.."
   // TODO: With Terraform 0.13 replace the parameter 'enable' or the conditional expression using 'with_iaf' with 'count'
   enable = true
 
